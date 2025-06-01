@@ -50,7 +50,7 @@ jobs:
           - sub_level: "25"
             os_patch_level: "2023-06"
           - sub_level: "25"
-            os_patch_level: "2024-06"
+          #  os_patch_level: "2024-06"
           #- sub_level: "84"
           #  os_patch_level: "2024-07"
           - sub_level: "90"
