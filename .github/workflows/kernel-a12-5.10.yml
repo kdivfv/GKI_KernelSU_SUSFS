@@ -41,7 +41,12 @@ on:
         required: true
         type: boolean
         default: false
-  
+      supp_op:
+        description: '是否启用supp_op功能'
+        required: true
+        type: boolean
+        default: false
+
 jobs:
   build-kernel-a12-5-10-kernelsu-susfs:
     strategy:
@@ -107,4 +112,3 @@ jobs:
       use_kpm: ${{ inputs.use_kpm }}
       supp_op: ${{ inputs.supp_op || false }}
       BBG: ${{ inputs.BBG || false }}
-
